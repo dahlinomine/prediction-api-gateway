@@ -1,0 +1,14 @@
+{
+  "name": "prediction-api-gateway",
+  "version": "0.1.0",
+  "description": "A high-performance proxy for prediction market data with rate limiting",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "ts-node src/index.ts"
+  },
+  "license": "MIT",
+  "keywords": []
+}
